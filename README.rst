@@ -23,7 +23,7 @@ If two names seems similar , I have implmented my improvised vowels/cosonants fu
 Requirements
 ============
 
--  Python 3 or higher
+-  Python 3 or higher and nltk
 
 Installation
 ============
