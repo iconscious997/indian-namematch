@@ -1,8 +1,4 @@
 
-# Requirements
-
-Python 3 or higher
-nltk , regex , itertools
 
 indian name_match
 ==========
@@ -10,11 +6,11 @@ indian name_match
 Indian Fuzzy Name matching like no other current algorithim.
 Improvised verion of Soundex for Indian Name Matching.
 Deals With:
--	Phonetic Variations  such as Pradeip Singh matches with Pradeep Singh.
-- 	Typographical Mistakes such as Mr Akhil Kumar matches with Akhil Kumar.
--	Reordered Items	Akhil Kumar and M/r Kumar Akhil will be a match.
--	Prefixes and Suffixex Siddhesh Sharma and s Sharma will be a match
--	Abbrevations and Initials Mr/miss etc all are preprocessed
+-  Phonetic Variations  such as Pradeip Singh matches with Pradeep Singh.
+-  Typographical Mistakes such as Mr Akhil Kumar matches with Akhil Kumar.
+-  Reordered Items	Akhil Kumar and M/r Kumar Akhil will be a match.
+-  Prefixes and Suffixex Siddhesh Sharma and s Sharma will be a match
+-  Abbrevations and Initials Mr/miss etc all are preprocessed
 
 I first preprocessed data also considering phonetic similarity of alphabets based on some common problems of Indian names.
 After that i implemented soundex and used it to find similarity of names.
